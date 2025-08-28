@@ -6,8 +6,9 @@ metadata:
   name: n8n-claim0
   namespace: n8n
 spec:
+  storageClassName: longhorn
   accessModes:
     - ReadWriteOnce
   resources:
     requests:
-      storage: 2Gi
+      storage: 100M
